@@ -248,7 +248,7 @@
         margin-right: 26px;
     }.event .slick-dots {
       
-        bottom: 0px !important;
+        bottom:unset !important;
     
     }
 }
