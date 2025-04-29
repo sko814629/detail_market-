@@ -1,0 +1,247 @@
+@media screen and (max-width:991px) {
+    .mobile-menu{
+        display: block;
+      }
+      .navbar{
+     display: none;
+    }
+    .mobile-menubar {
+        display: block;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        background-color: #fff;
+        width: 100%;
+        max-width: 280px;
+        height: 100vh;
+        padding-inline: 20px;
+        z-index: 9;
+    }
+      .mobile-menubar.show{
+        left: 0;
+      }
+      .mobile-menu i{
+        font-size: 25px;
+      }
+      .mobile-menubar .navbar{
+        display: block;
+      }
+      .mobile-logo{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        padding-block: 20px;
+      
+    }
+    .mobile-menubar  .navbar li{
+     padding-block:10px;
+    
+  }
+  .hero-image {
+    display: none;
+}
+.hero-text {
+    flex-basis:100%;
+    padding: 20px;
+}
+.hero-text h1 {
+    font-size: 40px;
+   
+}
+.about-content {
+
+    flex-direction: column;
+}
+.about-content .about-img {
+    flex-basis:100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+.book-seesion{
+    grid-template-columns: repeat(2 , 1fr);
+  
+}
+}
+@media screen and (max-width:768px){
+    .hero-text h1 {
+        font-size:30px;
+       
+    }
+    .count .count-col span{
+        width: 50px;
+        height: 46px;
+        font-size:20px;
+    }
+    .count-col .dots .dot{
+        width: 5px;
+        height: 5px;
+      
+    }
+    .about-content .about-heading {
+        flex-basis: 100%;
+        margin-left: 0px;
+    }
+    .hero-text p{
+        font-size:12px;
+        
+        }
+        .about-content .about-img {
+            flex-basis:100%;
+           
+            flex-direction: column;
+        }
+        .book-event-btn button {
+
+            padding: 15px 11px;
+            font-size: 13px;
+        }
+        .hero-banner::after {
+            bottom: -1px;
+        }
+        .about-second-img::after {
+
+            left: 0px;
+         
+        }
+        .about-content .about-img {
+            gap: 100px;
+        }
+        .count-wrap {
+
+            gap: 10px;
+         
+        }
+        .logo img {
+            width: 100px;
+        }
+        .mobile-logo img{
+            width: 100px;
+        }
+        @keyframes rotate{
+            0%{
+                transform: translateY(0px);
+            }
+            100%{
+                transform:translateX(50px);
+            }
+        }
+        .book-seesion{
+
+            grid-template-columns: repeat(1 , 1fr);
+          
+        }
+        .book-seesion::before {
+        display: none;
+        }
+        .event-session {
+            flex-direction: column;
+        }
+        .event-session-description {
+            padding-right:0px;
+            text-align: center;
+            margin-bottom: 20px;
+   
+        }
+        .teams{
+
+            grid-template-columns: repeat(2 , 1fr);
+          
+        }
+        .session {
+            padding-block: 25px 40px;
+            margin-top: 50px;
+        }
+        .meet-content h2 {
+            font-size:30px;
+            padding-top: 30px;
+        }
+        .sponsors-member{
+            grid-template-columns: repeat(3 ,1fr);
+          
+        }
+        .footer-navbar{
+            grid-template-columns: repeat(2 , 1fr);
+    
+          }
+}
+@media screen  and (max-width:576px) {
+    .sponsors-member {
+        grid-template-columns: repeat(2 ,1fr);
+    }
+    .hero-text {
+        flex-basis: 100%;
+        height:70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .booked-heading h1 {
+        font-size: 30px;
+    }
+    .footer-navbar{
+        grid-template-columns: repeat(1 , 1fr);
+
+      }
+      .footer-top {
+        display: block;
+        text-align: center;
+    }
+    .follow-link {
+        justify-content: center;
+    }
+    .gallery {
+    
+        flex-direction: column;
+    }
+    .footer-menu_bar{
+        margin-bottom: 50px;
+    }
+    .event .slick-dots li button::before {
+        content: "";
+        display: block;
+        width: 40px !important;
+        height: 40px !important;
+        background-image: url('https://themeclan.com/event/assets/images/home/user-2.png');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.25;
+        margin-inline: -2px;
+        border-radius: 50px;
+    }
+    .booked-heading h1 {
+        font-size: 28px;
+    }
+    .memories-heading h2 {
+        font-size: 28px;
+        
+    }
+    .event-heading h2 {
+        font-size: 28px;
+    }
+    .footer-menu_bar h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .footer-menu_bar ul li {
+        padding-block: 7px;
+        text-align: center;
+    }
+    .footer-menu_bar p {
+        color: #fff;
+        padding-block: 10px;
+        text-align: center;
+    }
+    .footer-menu_bar a {
+        text-align: center;
+        display: block;
+    }
+    .follow-link {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
