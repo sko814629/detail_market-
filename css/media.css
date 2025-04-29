@@ -244,4 +244,11 @@
         justify-content: center;
         flex-direction: column;
     }
+    .event .slick-dots li {
+        margin-right: 26px;
+    }.event .slick-dots {
+      
+        bottom: 0px !important;
+    
+    }
 }
