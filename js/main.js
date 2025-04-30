@@ -11,11 +11,11 @@ mobile_menu.addEventListener('click', () => {
 mobile_menu_close.addEventListener('click', () => {
     mobile_menubar.classList.remove('show'); 
 });
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: "auto",
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+// var swiper = new Swiper(".mySwiper", {
+//     slidesPerView: "auto",
+//     spaceBetween: 30,
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true,
+//     },
+//   });

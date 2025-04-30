@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- Slick CSS -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/media.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="logo">
-          <img
-            src="https://themeclan.com/event/assets/images/home/logo.png"
-            alt=""
-          />
-        </div>
-        <nav>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="https://themeclan.com/event/assets/images/home/logo.png" alt="" />
+      </div>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About </a></li>
+          <li><a href="#">Event</a></li>
+          <li><a href="#">Book Event</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="mobile-menubar" id="mobile-menubar">
+          <div class="mobile-logo">
+            <a href="#"><img src="https://themeclan.com/event/assets/images/home/logo.png" alt="" /></a>
+            <div class="mobile-menu-close" id="mobile-menu-close">
+              <i class="fa-solid fa-xmark" id="close"></i>
+            </div>
+          </div>
+
           <ul class="navbar">
             <li><a href="#">Home</a></li>
             <li><a href="#">About </a></li>
@@ -36,392 +47,332 @@
             <li><a href="#">Book Event</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-          <div class="mobile-menubar" id="mobile-menubar">
-            <div class="mobile-logo">
-              <a href="#"
-                ><img
-                  src="https://themeclan.com/event/assets/images/home/logo.png"
-                  alt=""
-              /></a>
-              <div class="mobile-menu-close" id="mobile-menu-close">
-                <i class="fa-solid fa-xmark" id="close"></i>
-              </div>
-            </div>
-
-            <ul class="navbar">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About </a></li>
-              <li><a href="#">Event</a></li>
-              <li><a href="#">Book Event</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-        <div class="book-event-btn">
-          <button>Book Event <i class="fa-solid fa-arrow-right"></i></button>
-          <div class="mobile-menu" id="mobile-menu">
-            <i class="fa-solid fa-bars"></i>
-          </div>
+        </div>
+      </nav>
+      <div class="book-event-btn">
+        <button>Book Event <i class="fa-solid fa-arrow-right"></i></button>
+        <div class="mobile-menu" id="mobile-menu">
+          <i class="fa-solid fa-bars"></i>
         </div>
       </div>
-    </header>
-    <section class="hero-banner">
-      <div class="container">
-        <div class="hero-content">
-          <div class="hero-text">
-            <span class="hero-description">UX Event 2024</span>
-            <h1>Promote Efficient Event Arrangement</h1>
-            <div class="count-wrap">
-              <div class="count">
-                <div class="count-col">
-                  <div class="count-value">
-                    <span>01</span>
-                    <p>Day</p>
-                  </div>
-
-                  <div class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                  </div>
+    </div>
+  </header>
+  <section class="hero-banner">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="hero-description">UX Event 2024</span>
+          <h1>Promote Efficient Event Arrangement</h1>
+          <div class="count-wrap">
+            <div class="count">
+              <div class="count-col">
+                <div class="count-value">
+                  <span>01</span>
+                  <p>Day</p>
                 </div>
-              </div>
-              <div class="count">
-                <div class="count-col">
-                  <div class="count-value">
-                    <span>01</span>
-                    <p>Day</p>
-                  </div>
 
-                  <div class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="count">
-                <div class="count-col">
-                  <div class="count-value">
-                    <span>01</span>
-                    <p>Day</p>
-                  </div>
-
-                  <div class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="count">
-                <div class="count-col">
-                  <div class="count-value">
-                    <span>01</span>
-                    <p>Day</p>
-                  </div>
-
-                  <div class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                  </div>
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
                 </div>
               </div>
             </div>
-            <p>
-              You can always make online event everywhere, everytime, and you
-              can invite everyone around the world.
-            </p>
+            <div class="count">
+              <div class="count-col">
+                <div class="count-value">
+                  <span>01</span>
+                  <p>Day</p>
+                </div>
 
-            <button class="hero-btn">
-              Register Now <i class="fa-solid fa-arrow-right"></i>
-            </button>
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+            </div>
+            <div class="count">
+              <div class="count-col">
+                <div class="count-value">
+                  <span>01</span>
+                  <p>Day</p>
+                </div>
+
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+            </div>
+            <div class="count">
+              <div class="count-col">
+                <div class="count-value">
+                  <span>01</span>
+                  <p>Day</p>
+                </div>
+
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="hero-image">
-            <img
-              src="https://themeclan.com/event/assets/images/home/banner-img.png"
-              alt="Hero Image"
-              class="here-img"
-            />
-            <img
-              src="https://themeclan.com/event/assets/images/home/banner-card.png"
-              alt="card"
-              class="card-img"
-            />
-            <img
-              src="https://themeclan.com/event/assets/images/home/banner-e-shape.svg"
-              alt="e-shape"
-              class="e-shape"
-            />
-            <img
-              src="https://themeclan.com/event/assets/images/home/banner-green-shape.svg"
-              class="green-shape"
-            />
-          </div>
+          <p>
+            You can always make online event everywhere, everytime, and you
+            can invite everyone around the world.
+          </p>
+
+          <button class="hero-btn">
+            Register Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="hero-image">
+          <img src="https://themeclan.com/event/assets/images/home/banner-img.png" alt="Hero Image" class="here-img" />
+          <img src="https://themeclan.com/event/assets/images/home/banner-card.png" alt="card" class="card-img" />
+          <img src="https://themeclan.com/event/assets/images/home/banner-e-shape.svg" alt="e-shape" class="e-shape" />
+          <img src="https://themeclan.com/event/assets/images/home/banner-green-shape.svg" class="green-shape" />
         </div>
       </div>
-    </section>
-    <section class="about-us">
-      <div class="container">
-        <div class="about-content">
-          <div class="about-img">
-            <div class="about-first-img">
-              <img
-                src="https://themeclan.com/event/assets/images/home/about_1.png"
-              />
-              <img
-                src="https://themeclan.com/event/assets/images/home/about_2.png"
-              />
-            </div>
-            <div class="about-second-img">
-              <img
-                src="https://themeclan.com/event/assets/images/home/about_3.png"
-              />
-              <!-- <div class="rotate-img">
+    </div>
+  </section>
+  <section class="about-us">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-img">
+          <div class="about-first-img">
+            <img src="https://themeclan.com/event/assets/images/home/about_1.png" />
+            <img src="https://themeclan.com/event/assets/images/home/about_2.png" />
+          </div>
+          <div class="about-second-img">
+            <img src="https://themeclan.com/event/assets/images/home/about_3.png" />
+            <!-- <div class="rotate-img">
                 <img
                   src="https://themeclan.com/event/assets/images/home/about-shape-1.svg"
                 /> 
               </div>-->
-            </div>
-          </div>
-          <div class="about-heading">
-            <div class="hero-text">
-              <span class="hero-description">UX Event 2024</span>
-              <h1>About The <span>Event</span></h1>
-              <div class="hero-paragraph">
-                <p>
-                  The world's best creatives in the tech sector are cordially
-                  invited to come learn, grow, fall flat, try new things, be
-                  vulnerable, and embark on incredible journeys. Meet and
-                  network with professionals from various fields.
-                </p>
-                <p>
-                  Join us for an extraordinary experience at our upcoming
-                  Product Design Improvement Workshop! This event brings
-                  together creative minds, industry experts, and passionate
-                  professionals to explore the latest trends, share innovative
-                  ideas, and collaboratively enhance product designs. Gain
-                  knowledge from top industry professionals and thought leaders
-                </p>
-              </div>
-
-              <button class="hero-btn">
-                Register Now <i class="fa-solid fa-arrow-right"></i>
-              </button>
-              <div class="bottom-content">
-                <div class="time-content">
-                  <img
-                    src="https://themeclan.com/event/assets/images/home/calender.svg"
-                    alt="time"
-                  />
-                  <h3>When Start</h3>
-                  <p>
-                    21th - 24th <br />
-                    Febuary 2025
-                  </p>
-                </div>
-                <div class="place-content">
-                  <img
-                    src="https://themeclan.com/event/assets/images/home/earth.svg"
-                    alt="map"
-                  />
-                  <h3>Where To</h3>
-                  <p>
-                    Zhylianska St, <br />
-                    97б, Kyiv,Ukraine.
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="session">
-      <div class="container">
-        <div class="event-session">
+        <div class="about-heading">
           <div class="hero-text">
             <span class="hero-description">UX Event 2024</span>
-            <h1>Our Event Session</h1>
-          </div>
-          <div class="event-session-description">
-            The world's best creatives in the tech sector are cordially invited
-            to come learn, grow, fall flat, try new things, be vulnerable, and
-            embark on incredible journeys
-          </div>
-          <div class="session-btn">
-            <div class="book-event-btn">
-              <button>
-                Register Now <i class="fa-solid fa-arrow-right"></i>
-              </button>
-             
+            <h1>About The <span>Event</span></h1>
+            <div class="hero-paragraph">
+              <p>
+                The world's best creatives in the tech sector are cordially
+                invited to come learn, grow, fall flat, try new things, be
+                vulnerable, and embark on incredible journeys. Meet and
+                network with professionals from various fields.
+              </p>
+              <p>
+                Join us for an extraordinary experience at our upcoming
+                Product Design Improvement Workshop! This event brings
+                together creative minds, industry experts, and passionate
+                professionals to explore the latest trends, share innovative
+                ideas, and collaboratively enhance product designs. Gain
+                knowledge from top industry professionals and thought leaders
+              </p>
             </div>
-          </div>
-        </div>
-        <div class="book-seesion">
-          <div class="book_card">
-            <img
-              src="https://themeclan.com/event/assets/images/home/session-1.png"
-              alt="bool"
-            />
-            <div class="book_heading">
-              <div class="btn_wrap">
-                <button>morring hours</button>
-                <span><i class="fa-solid fa-clock"></i>8.00am-10.00am</span>
+
+            <button class="hero-btn">
+              Register Now <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <div class="bottom-content">
+              <div class="time-content">
+                <img src="https://themeclan.com/event/assets/images/home/calender.svg" alt="time" />
+                <h3>When Start</h3>
+                <p>
+                  21th - 24th <br />
+                  Febuary 2025
+                </p>
               </div>
-              <h2>Networking Opportunity</h2>
-              <a href="#"
-                >Book Seesion
-
-                <i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="book_card">
-            <img
-              src="https://themeclan.com/event/assets/images/home/session-1.png"
-              alt="bool"
-            />
-            <div class="book_heading">
-              <div class="btn_wrap">
-                <button>morring hours</button>
-                <span><i class="fa-solid fa-clock"></i>8.00am-10.00am</span>
+              <div class="place-content">
+                <img src="https://themeclan.com/event/assets/images/home/earth.svg" alt="map" />
+                <h3>Where To</h3>
+                <p>
+                  Zhylianska St, <br />
+                  97б, Kyiv,Ukraine.
+                </p>
               </div>
-              <h2>Networking Opportunity</h2>
-              <a href="#"
-                >Book Seesion
-
-                <i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="book_card">
-            <img
-              src="https://themeclan.com/event/assets/images/home/session-1.png"
-              alt="bool"
-            />
-            <div class="book_heading">
-              <div class="btn_wrap">
-                <button>morring hours</button>
-                <span><i class="fa-solid fa-clock"></i>8.00am-10.00am</span>
-              </div>
-              <h2>Networking Opportunity</h2>
-              <a href="#"
-                >Book Seesion
-
-                <i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-<section class="meet">
-  <div class="container">
-    <div class="meet-content">
-      <h2>Meet Our  <span>Speaker</span> </h2>
-      <p>You can always make online event everywhere, everytime, and you can invite <br> everyone around the world.</p>
     </div>
-    <div class="teams">
-      <div class="team_member">
-        <img src="https://themeclan.com/event/assets/images/home/speaker-1.png" alt="member1">
-        <div class="member_description">
-          <h4>Dianna Russel</h4>
-          <p>TeamLeader</p>
+  </section>
+  <section class="session">
+    <div class="container">
+      <div class="event-session">
+        <div class="hero-text">
+          <span class="hero-description">UX Event 2024</span>
+          <h1>Our Event Session</h1>
+        </div>
+        <div class="event-session-description">
+          The world's best creatives in the tech sector are cordially invited
+          to come learn, grow, fall flat, try new things, be vulnerable, and
+          embark on incredible journeys
+        </div>
+        <div class="session-btn">
+          <div class="book-event-btn">
+            <button>
+              Register Now <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+          </div>
         </div>
       </div>
-      <div class="team_member">
-        <img src="https://themeclan.com/event/assets/images/home/speaker-2.png" alt="member2">
-        <div class="member_description">
-          <h4>Dianna Russel</h4>
-          <p>TeamLeader</p>
+      <div class="book-seesion">
+        <div class="book_card">
+          <img src="https://themeclan.com/event/assets/images/home/session-1.png" alt="bool" />
+          <div class="book_heading">
+            <div class="btn_wrap">
+              <button>morring hours</button>
+              <span><i class="fa-solid fa-clock"></i>8.00am-10.00am</span>
+            </div>
+            <h2>Networking Opportunity</h2>
+            <a href="#">Book Seesion
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="book_card">
+          <img src="https://themeclan.com/event/assets/images/home/session-1.png" alt="bool" />
+          <div class="book_heading">
+            <div class="btn_wrap">
+              <button>morring hours</button>
+              <span><i class="fa-solid fa-clock"></i>8.00am-10.00am</span>
+            </div>
+            <h2>Networking Opportunity</h2>
+            <a href="#">Book Seesion
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="book_card">
+          <img src="https://themeclan.com/event/assets/images/home/session-1.png" alt="bool" />
+          <div class="book_heading">
+            <div class="btn_wrap">
+              <button>morring hours</button>
+              <span><i class="fa-solid fa-clock"></i>8.00am-10.00am</span>
+            </div>
+            <h2>Networking Opportunity</h2>
+            <a href="#">Book Seesion
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
         </div>
       </div>
-      <div class="team_member">
-        <img src="https://themeclan.com/event/assets/images/home/speaker-3.png" alt="member3">
-        <div class="member_description">
-          <h4>Dianna Russel</h4>
-          <p>TeamLeader</p>
+    </div>
+  </section>
+
+  <section class="meet">
+    <div class="container">
+      <div class="meet-content">
+        <h2>Meet Our <span>Speaker</span> </h2>
+        <p>You can always make online event everywhere, everytime, and you can invite <br> everyone around the world.
+        </p>
+      </div>
+      <div class="teams">
+        <div class="team_member">
+          <img src="https://themeclan.com/event/assets/images/home/speaker-1.png" alt="member1">
+          <div class="member_description">
+            <h4>Dianna Russel</h4>
+            <p>TeamLeader</p>
+          </div>
+        </div>
+        <div class="team_member">
+          <img src="https://themeclan.com/event/assets/images/home/speaker-2.png" alt="member2">
+          <div class="member_description">
+            <h4>Dianna Russel</h4>
+            <p>TeamLeader</p>
+          </div>
+        </div>
+        <div class="team_member">
+          <img src="https://themeclan.com/event/assets/images/home/speaker-3.png" alt="member3">
+          <div class="member_description">
+            <h4>Dianna Russel</h4>
+            <p>TeamLeader</p>
+          </div>
+        </div>
+        <div class="team_member">
+          <img src="https://themeclan.com/event/assets/images/home/speaker-4.png" alt="member4">
+          <div class="member_description">
+            <h4>Dianna Russel</h4>
+            <p>TeamLeader</p>
+          </div>
         </div>
       </div>
-      <div class="team_member">
-        <img src="https://themeclan.com/event/assets/images/home/speaker-4.png" alt="member4">
-        <div class="member_description">
-          <h4>Dianna Russel</h4>
-          <p>TeamLeader</p>
+
+    </div>
+
+  </section>
+
+  <section class="sponsors">
+    <div class="container">
+      <div class="meet-content">
+
+        <h2>Trusted By Golden <span>Sponsors</span> </h2>
+        <!-- <p>You can always make online event everywhere, everytime, and you can invite <br> everyone around the world.</p> -->
+
+      </div>
+      <div class="sponsors-member">
+        <div class="icon-sponsor">
+          <img src="https://themeclan.com/event/assets/images/home/brand-icon-1.png" alt="">
+        </div>
+        <div class="icon-sponsor">
+          <img src="https://themeclan.com/event/assets/images/home/brand-icon-1.png" alt="">
+        </div>
+        <div class="icon-sponsor">
+          <img src="https://themeclan.com/event/assets/images/home/brand-icon-1.png" alt="">
+        </div>
+        <div class="icon-sponsor">
+          <img src="https://themeclan.com/event/assets/images/home/brand-icon-1.png" alt="">
+        </div>
+        <div class="icon-sponsor">
+          <img src="https://themeclan.com/event/assets/images/home/brand-icon-1.png" alt="">
+        </div>
+      </div>
+      <div class="session-btn">
+        <div class="book-event-btn">
+          <button>
+            Register Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
         </div>
       </div>
     </div>
+  </section>
 
-  </div>
-
-</section>
-
-<section class="sponsors">
-  <div class="container">
-    <div class="meet-content">
-      
-      <h2>Trusted By Golden <span>Sponsors</span> </h2>
-      <!-- <p>You can always make online event everywhere, everytime, and you can invite <br> everyone around the world.</p> -->
+  <section class="booked">
+    <div class="container">
+      <div class="booked-heading">
+        <h1>Haven't <span>booked your seat</span> <br> yet Get Registration Now</h1>
+        <button>register now<i class="fa-solid fa-arrow-right"></i></button>
+      </div>
 
     </div>
-    <div class="sponsors-member">
-      <div class="icon-sponsor">
-        <img src="https://themeclan.com/event/assets/images/home/brand-icon-1.png" alt="">
-      </div>
-      <div class="icon-sponsor">
-        <img src="https://themeclan.com/event/assets/images/home/brand-icon-1.png" alt="">
-      </div>
-      <div class="icon-sponsor">
-        <img src="https://themeclan.com/event/assets/images/home/brand-icon-1.png" alt="">
-      </div>
-      <div class="icon-sponsor">
-        <img src="https://themeclan.com/event/assets/images/home/brand-icon-1.png" alt="">
-      </div>
-      <div class="icon-sponsor">
-        <img src="https://themeclan.com/event/assets/images/home/brand-icon-1.png" alt="">
-      </div>
-    </div>
-    <div class="session-btn">
-      <div class="book-event-btn">
-        <button>
-          Register Now <i class="fa-solid fa-arrow-right"></i>
-        </button>
-       
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="booked">
-  <div class="container">
-    <div class="booked-heading">
-      <h1>Haven't  <span>booked your seat</span> <br> yet Get Registration Now</h1>
-      <button>register now<i class="fa-solid fa-arrow-right"></i></button>
-    </div>
-   
-  </div>
+  </section>
 
-</section>
-
-<section class="memories">
-  <div class="container">
-    <div class="memories-heading">
-      <h2>Memories Of Last <span>Year Session</span></h2>
-    </div>
-    <div class="gallery">
-      <div class="left-column">
-        <img src="https://themeclan.com/event/assets/images/home/memori-1.png" alt="">
-        <img src="https://themeclan.com/event/assets/images/home/memori-1.png" alt="">
+  <section class="memories">
+    <div class="container">
+      <div class="memories-heading">
+        <h2>Memories Of Last <span>Year Session</span></h2>
       </div>
+      <div class="gallery">
+        <div class="left-column">
+          <img src="https://themeclan.com/event/assets/images/home/memori-1.png" alt="">
+          <img src="https://themeclan.com/event/assets/images/home/memori-1.png" alt="">
+        </div>
 
-      <div class="center-image">
-        <img src="https://themeclan.com/event/assets/images/home/memori-3.png" alt="">
-      </div>
+        <div class="center-image">
+          <img src="https://themeclan.com/event/assets/images/home/memori-3.png" alt="">
+        </div>
 
-      <div class="right-column">
-        <img src="https://themeclan.com/event/assets/images/home/memori-4.png" alt="">
+        <div class="right-column">
+          <img src="https://themeclan.com/event/assets/images/home/memori-4.png" alt="">
+        </div>
       </div>
-    </div>
-    <!-- <div class="memories_img">
+      <!-- <div class="memories_img">
       <div class="memories_imgbox memories-both">
 <img src="https://themeclan.com/event/assets/images/home/memori-1.png" alt="">
 <img src="https://themeclan.com/event/assets/images/home/memori-1.png" alt="">
@@ -434,111 +385,116 @@
       </div>
     </div> -->
 
-  </div>
-</section>
+    </div>
+  </section>
 
-<section class="event">
-  <div class="container">
-    <div class="event-heading">
-      <span class="hero-description">UX Event 2024</span>
-      
-      <h2>People <span>
-        Are Saying Our Event
-      </span> </h2>
-      <img src="https://themeclan.com/event/assets/images/home/comma-icon.svg" alt="">
-    
-      <div class="multiple-items">
-        <div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta, possimus obcaecati maiores impedit excepturi repellat magni harum numquam! Commodi?</p>
-<h2>Nisam</h2>
+  <section class="event">
+    <div class="container">
+      <div class="event-heading">
+        <span class="hero-description">UX Event 2024</span>
+
+        <h2>People <span>
+            Are Saying Our Event
+          </span> </h2>
+        <img src="https://themeclan.com/event/assets/images/home/comma-icon.svg" alt="">
+
+        <div class="multiple-items">
+          <div class="slide-heading">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta, possimus obcaecati maiores
+              impedit excepturi repellat magni harum numquam! Commodi?</p>
+            <h2>Nisam</h2>
+          </div>
+          <div class="slide-heading">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta, possimus obcaecati maiores
+              impedit excepturi repellat magni harum numquam! Commodi?</p>
+            <h2>Sisam
+          </div>
+          <div class="slide-heading">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo similique omnis ipsa voluptate officia!</p>
+            <h2>Abu Sayed</h2>
+          </div>
+          <div class="slide-heading" >Slide 4</div>
+          <div class="slide-heading" >Slide 5</div>
+
         </div>
-        <div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta, possimus obcaecati maiores impedit excepturi repellat magni harum numquam! Commodi?</p>
-          <h2>Sisam</div>
-        <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo similique omnis ipsa voluptate officia!</p>
-        <h2>Abu Sayed</h2></div>
-        <div>Slide 4</div>
-        <div>Slide 5</div>
-       
+
       </div>
-    
+
     </div>
+  </section>
 
-  </div>
-</section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#"> <img src="https://themeclan.com/event/assets/images/home/logo.png" alt="" /></a>
 
-<footer class="footer">
-<div class="container">
-  <div class="footer-top">
-    <a href="#"> <img
-      src="https://themeclan.com/event/assets/images/home/logo.png"
-      alt=""
-    /></a>
+        <div class="follow-link">
+          <a href="#">follow</a>
+          <div class="socail_link">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
 
-    <div class="follow-link">
-      <a href="#">follow</a>
-      <div class="socail_link">
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        
+          </div>
+        </div>
+      </div>
+      <div class="footer-navbar">
+        <div class="footer-menu_bar">
+          <h4>Contact</h4>
+          <p>328 Queensberry Street, North Melbourne <br>VIC3051, Australia.</p>
+          <a href="#">hello@icevent.com</a>
+        </div>
+        <div class="footer-menu_bar">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Book now</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu_bar">
+          <h4>Events</h4>
+          <ul>
+            <li><a href="#">Innovate 2024 </a></li>
+            <li><a href="#">Connect & Inspire </a></li>
+            <li><a href="#">Creative Summit</a></li>
+            <li><a href="#">Tech Forward</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu_bar">
+          <h4>Newletter</h4>
+          <p>328 Queensberry Street, North Melbourne <br>VIC3051, Australia.</p>
+          <span><input type="text" placeholder="You email address"> <a href="#">send</a></span>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="footer-navbar">
-    <div class="footer-menu_bar">
-      <h4>Contact</h4>
-      <p>328 Queensberry Street, North Melbourne  <br>VIC3051, Australia.</p>
-      <a href="#">hello@icevent.com</a>
+    <div class="footer-copy-section">
+      <p>© 2024 ICevent. All Rights Reserved</p>
     </div>
-    <div class="footer-menu_bar">
-      <h4>Pages</h4>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Book now</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact us</a></li>
-      </ul>
-    </div>
-    <div class="footer-menu_bar">
-      <h4>Events</h4>
-      <ul>
-        <li><a href="#">Innovate 2024 </a></li>
-        <li><a href="#">Connect & Inspire </a></li>
-        <li><a href="#">Creative Summit</a></li>
-        <li><a href="#">Tech Forward</a></li>
-        <li><a href="#">Contact us</a></li>
-      </ul>
-    </div>
-    <div class="footer-menu_bar">
-      <h4>Newletter</h4>
-      <p>328 Queensberry Street, North Melbourne  <br>VIC3051, Australia.</p>
-      <span><input type="text" placeholder="You email address"> <a href="#">send</a></span>
-    </div>
-  </div>
-</div>
-  <div class="footer-copy-section">
-    <p>© 2024 ICevent. All Rights Reserved</p>
-  </div>
 
-</footer>
+  </footer>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <script src="./js/main.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  
-   
-    <script>
-      $(document).ready(function(){
-        $('.multiple-items').slick({
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: true ,
-          arrows:false
-        });
+  <script src="./js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('.multiple-items').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>

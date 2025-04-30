@@ -690,6 +690,12 @@ border: 2px solid #ff6347;
            .event .slick-dots li {
                 margin-right:50px;
             }
+            .slide-heading {
+                display: flex !important;
+                flex-direction: column;
+                justify-content: space-between;
+                min-height: 100px;
+            }
           .footer{
             background: linear-gradient(81deg, #217bfe 14.31%, #11ce8e 86.04%);
             margin-top: 70px;
