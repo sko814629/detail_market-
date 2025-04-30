@@ -246,7 +246,8 @@
     }
     .event .slick-dots li {
         margin-right: 26px;
-    }.event .slick-dots {
+    }
+    .event .slick-dots {
       
         bottom:unset !important;
     
