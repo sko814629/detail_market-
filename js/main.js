@@ -4,7 +4,6 @@ let close = document.getElementById('close');
 let mobile_menu_close = document.getElementById('mobile-menu-close'); // Correct method here
 
 mobile_menu.addEventListener('click', () => {
-    // alert("everything");
     mobile_menubar.classList.toggle('show'); 
 });
 
