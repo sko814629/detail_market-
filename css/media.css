@@ -174,7 +174,7 @@
     }
     .hero-text {
         flex-basis: 100%;
-        height:70vh;
+        /* height:70vh; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -248,8 +248,16 @@
         margin-right: 26px;
     }
     .event .slick-dots {
-      
         bottom:unset !important;
-    
+    }
+    .teams {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .book_card h2{
+        font-size: 18px;
+    }
+    .book_heading {
+        left:12px;
+        
     }
 }

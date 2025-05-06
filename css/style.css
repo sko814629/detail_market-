@@ -199,12 +199,9 @@ color:#f7efef;
         position: relative;
     }
     .hero-text .hero-description {
-       
         color: #f7efef;
-        /* text-align: start; */
-        /* background: red; */
         width: 100%;
-        padding-left: 50px;
+        padding-left:40px;
     }
     .event-heading .hero-description::before {
         margin-inline:0px;
