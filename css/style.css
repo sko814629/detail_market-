@@ -184,10 +184,13 @@ header .container {
   height: 3px;
   background-color: #e7e6e6;
   top: 50%;
-  left: -35px;
+  left:-40px;
   transform: translateY(-50%);
   /* padding-inline: 40px; */
   margin-inline: 33px;
+}
+.hero-banner::after {
+    bottom: -1px;
 }
 .count-wrap {
   display: flex;
