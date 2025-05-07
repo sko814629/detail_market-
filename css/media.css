@@ -169,6 +169,7 @@
           }
 }
 @media screen  and (max-width:576px) {
+    
     .sponsors-member {
         grid-template-columns: repeat(2 ,1fr);
     }
@@ -257,7 +258,25 @@
         font-size: 18px;
     }
     .book_heading {
-        left:12px;
-        
+        left:12px;  
     }
+    .hero-banner::after{
+        display: none;
+    }
+    .member_description p {
+        font-size: 13px;
+    }
+    /* .event .slick-dots li {
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+}
+.event .slick-dots {
+    padding-block: 20px;
+
+} */
+.event .slick-list.draggable {
+    margin-bottom: 40px;
+}
 }
